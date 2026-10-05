@@ -277,7 +277,7 @@ Numbers in this book come from established thermochemistry and plasma–surface 
 **Book #33 Foundation:** Complete  
 **Part I (Chapters 1–4):** Complete  
 **Part II (Chapters 5–9):** Complete  
-**Part III (Chapters 10–14):** Planned  
+**Part III (Chapters 10–14):** Complete  
 **Part IV (Chapters 15–16):** Planned  
 **Back Matter (Appendices A–G, Glossary):** Planned  
 
