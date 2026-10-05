@@ -203,10 +203,10 @@ R4  hybrid dry + wet   P2 + strip + P4 to 1 nm + HF    42 + 60 + 23 s        wet
 Route                  W loss     TiN notch / undercut           Residue tail                  Resist used
 ───────────────────────────────────────────────────────────────────────────────────────────────────────────────
 R0  integrated         0          4.2 nm TiN notch               OE 50%, σ_g 8%; veils          218 nm
-R1  strip-then-clear   2.3 nm     ≈ 0 (shell) or 9 nm (1.0 nm)   OE 35%, σ_g 5%; no veils       ≈ 152 nm
-R2  R1 + ALE finish    1.7 nm     ≈ 0; undercut 1.3 nm           ALE clears grains uniformly    ≈ 152 nm
-R3  all-thermal        0.7 nm     undercut 7 nm                  uniform; no ion dose            ≈ 152 nm
-R4  hybrid dry + wet   1.7 nm     undercut 1.3 nm                isotropic; slow on tetragonal   ≈ 152 nm
+R1  strip-then-clear   2.3 nm     ≈ 2 nm (shell); 11 nm (1.0)   OE 35%, σ_g 5%; no veils       ≈ 152 nm
+R2  R1 + ALE finish    1.7 nm     ≈ 2 nm; undercut 1.3 nm       ALE clears grains uniformly    ≈ 152 nm
+R3  all-thermal        0.7 nm     ≈ 2 nm; undercut 7 nm         uniform; no ion dose            ≈ 152 nm
+R4  hybrid dry + wet   1.7 nm     ≈ 2 nm; undercut 1.3 nm       isotropic; slow on tetragonal   ≈ 152 nm
 ```
 
 Three things stand out. The strip-then-clear route (R1) trades 2.3 nm of tungsten and a shell margin for a 6× smaller SiN loss, no veils, and a lower overetch. The ALE finish (R2) buys the last decade of residue tail for 4.8 minutes of reactor time, and the all-thermal route (R3) only makes sense in a batch tool (Chapter 6). The hybrid wet route (R4) is dominated by the wet step, which at the tetragonal rate of 0.2 nm/min takes 6.5 minutes and costs 13 nm of SiN: its price is a nitride loss at 87% of the 15 nm limit.
