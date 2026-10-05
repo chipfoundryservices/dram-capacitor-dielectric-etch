@@ -48,7 +48,7 @@ D2 cycle (ALE-capable ICP, chuck 100 °C, illustrative):
   Cycle time                                                                    5.0 s
 ```
 
-In step A, BCl₂⁺ and Cl arrive at energies below the etch threshold. Chlorine bonds to surface zirconium, and boron bonds to surface oxygen, forming a mixed Zr–Cl / B–O surface layer about one monolayer deep. Without energetic ions, further reaction stops: the oxygen beneath the first layer is not reached. In step B, Ar⁺ ions at 60 eV deliver enough energy to desorb ZrClₓ and BOCl from the modified layer, but not enough to sputter unmodified ZrO₂. When the modified layer is gone, removal stops.
+Like D1, D2 opens with a 3 s BCl₃/Ar breakthrough at about 100 eV that removes the carbon, titanium, and fluorine left on the surface by the plate etch and the strip (Chapters 2 and 10); at 100 °C it also removes about 0.2 nm of ZAZ, which the cycle count below does not take credit for. In step A, BCl₂⁺ and Cl arrive at energies below the etch threshold. Chlorine bonds to surface zirconium, and boron bonds to surface oxygen, forming a mixed Zr–Cl / B–O surface layer about one monolayer deep. Without energetic ions, further reaction stops: the oxygen beneath the first layer is not reached. In step B, Ar⁺ ions at 60 eV deliver enough energy to desorb ZrClₓ and BOCl from the modified layer, but not enough to sputter unmodified ZrO₂. When the modified layer is gone, removal stops.
 
 ### 4.2.2 Saturation
 
@@ -144,7 +144,7 @@ D2 clearing (reference periphery ZAZ, 5.4 nm):
   Phase mix (≈ 30% monoclinic)       + ≈ 1 cycle
   Nominal                            ≈ 56 cycles
   Over-cycling 30%                   + 17 cycles → 73 cycles
-  Time at 5.0 s per cycle            365 s ≈ 6.1 min
+  Time at 5.0 s per cycle            365 s ≈ 6.1 min (+ 3 s breakthrough)
   SiN loss in over-cycling           17 × 0.012 ≈ 0.2 nm
 ```
 
@@ -204,6 +204,8 @@ Thermal ALE clearing (reference periphery ZAZ, single wafer):
   Nominal ≈ 107 cycles; + 30% → 139 cycles
   Time at 12 s per cycle ≈ 28 min per wafer
 ```
+
+The 30% margin is the one D2 uses, kept here for comparison. Chapter 10 shows that thermal ALE's wider spread of local clearing needs nearly 80%, about 190 cycles.
 
 On a single-wafer tool, that is too slow for production. In a batch reactor holding 100 wafers, with longer pulses and purges (about 60 s per cycle), the same 139 cycles take about 2.3 h per batch, roughly 35–40 wafers per hour per reactor (Chapter 7).
 
