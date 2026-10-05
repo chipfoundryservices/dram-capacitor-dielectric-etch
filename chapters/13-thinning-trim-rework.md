@@ -193,7 +193,7 @@ Queue limit exceeded                       oxidizing treatment first; rework if 
 ```
 Trim rules (reference):
   1. Measure each lot's ALD thickness (± 0.03 nm); compute N = round((t_meas − t_nom)/EPC)
-  2. N = 0 within one cycle of nominal; N ≤ 3 at 265 °C or ≤ 2 at 280 °C
+  2. N = 0 within one cycle of nominal; N ≤ 4 at 265 °C (0.23 nm) or ≤ 3 at 280 °C (0.22 nm)
   3. Never trim below nominal without written approval; the headroom is 0.28 nm
   4. Run the oxidizing step after any trim (Chapter 12.6)
   5. Check EPC from the witness crystal every lot; trim-dose arrays every month
