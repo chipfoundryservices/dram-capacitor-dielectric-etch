@@ -128,7 +128,8 @@ The specification is sensitive to a change of 0.019 nm, three-tenths of a monola
 ### 12.4.3 Budget
 
 ```
-Spending of the 0.28 nm equivalent-thickness headroom (reference; leakage only)
+Spending of the 0.28 nm equivalent-thickness headroom (a trim of a lot already at nominal;
+Chapter 13 shows that a trim of an over-thick lot spends far less)
   Trim, 3 cycles (0.22 nm of physical film)                   0.22 nm
   Fluorine/carbon surface layer of module T (conservative)    0.03 nm
   Interface change at the top-electrode ALD after T            0.02 nm

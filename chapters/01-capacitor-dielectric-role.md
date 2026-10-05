@@ -49,13 +49,14 @@ dC/C = −dEOT/EOT
 
 Thin the ZAZ by       EOT (nm)    C_s (fF)    ΔC       Leakage (× median)*
 ─────────────────────────────────────────────────────────────────────────
-0.0 nm (reference)    0.4988      8.57        —        1.0
+0.0 nm (reference)    0.4988      8.60        —        1.0
 0.1 nm                0.4898      8.76       +1.9%     1.7
 0.2 nm                0.4807      8.92       +3.8%     2.8
 0.3 nm                0.4716      9.10       +5.8%     4.6
 0.5 nm                0.4535      9.46      +10.0%    12.9
 
-* assuming one decade of leakage per 0.45 nm of physical thickness (illustrative)
+* assuming one decade of leakage per 0.45 nm of physical thickness (illustrative);
+  C_s scaled to the reference 8.6 fF
 ```
 
 A 0.2 nm thinner film would add 3.8% to C_s and raise the sense signal from 97.3 mV to 100.3 mV. It would also nearly triple the leakage. Section 1.1.3 shows how much leakage the cell can afford.
