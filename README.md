@@ -277,8 +277,8 @@ Numbers in this book come from established thermochemistry and plasma–surface 
 **Part I (Chapters 1–4):** Complete  
 **Part II (Chapters 5–9):** Complete  
 **Part III (Chapters 10–14):** Complete  
-**Part IV (Chapters 15–16):** In progress  
-**Back Matter (Appendices A–G, Glossary):** In progress  
+**Part IV (Chapters 15–16):** Complete  
+**Back Matter (Appendices A–G, Glossary):** Complete  
 
 ---
 

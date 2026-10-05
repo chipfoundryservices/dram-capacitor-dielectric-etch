@@ -229,7 +229,8 @@ The per-cycle signal is weaker than D1's continuous signal, because 0.1 nm leave
 ```
 Two ways to end D2:
   Fixed count       N = 73 (56 nominal + 30%), adjusted per lot by
-                    feed-forward: N = 1.3 × (t_in / EPC + 3.75 for Al₂O₃)
+                    feed-forward: N = 1.3 × ((t_in − 0.3) / EPC + 3.75),
+                    the 3.75 cycles being the 0.3 nm Al₂O₃ insertion
   Detected          N_EP = cycle at which the Si per-cycle signal reaches 50%
                     of its rise; then over-cycle 0.30 × N_EP
 ```

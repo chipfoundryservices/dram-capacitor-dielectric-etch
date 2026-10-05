@@ -67,8 +67,8 @@ The first ozone pulses also oxidize the top 0.5 nm or so of the SiN into an oxyn
 Thermal history of the ZAZ (reference):
   ZAZ ALD           280 °C, ≈ 40 min    partly crystalline on TiN;
                                         amorphous on SiN
-  TE TiN (pulsed    400 °C, ≈ 15 min    tetragonal grains grow on TiN
-  CVD, TiCl₄/NH₃)                       templates; nucleation on SiN
+  TE TiN (ALD,      400 °C, ≈ 15 min    tetragonal grains grow on TiN
+  TiCl₄/NH₃)                            templates; nucleation on SiN
   SiGe fill         425 °C, ≈ 40 min    crystallization complete
   W strap           400 °C, ≈ 5 min     —
   Oxide cap         400 °C, ≈ 3 min     —
@@ -140,7 +140,7 @@ Plate stack at the island edge (reference):
   Oxide cap        PE-TEOS 60 nm (hard mask for the dielectric clear)
   W strap          40 nm
   SiGe fill        150 nm, Si₀.₇Ge₀.₃, B ≈ 2 × 10²⁰ cm⁻³
-  TE TiN           5 nm, pulsed CVD, Cl ≈ 0.5 at%
+  TE TiN           5 nm, ALD (TiCl₄/NH₃), Cl ≈ 0.5 at%
   ZAZ              5.5 nm (continuous under the plate)
   Total height     ≈ 260 nm above the ZAZ
 ```
