@@ -278,15 +278,16 @@ Numbers in this book come from established thermochemistry and plasma–surface 
 **Part I (Chapters 1–4):** Complete  
 **Part II (Chapters 5–9):** Complete  
 **Part III (Chapters 10–14):** Complete  
-**Part IV (Chapters 15–16):** Planned  
-**Back Matter (Appendices A–G, Glossary):** Planned  
+**Part IV (Chapters 15–16):** Complete  
+**Back Matter (Appendices A–G, Glossary):** Complete  
 
 ---
 
 ## Next Steps
 
 1. **Read [PREFACE.md](./PREFACE.md)** for the motivation and reading guidance
-2. **Begin [Chapter 1](./chapters/01-capacitor-dielectric-role.md)**: The Capacitor Dielectric & Why It Is Etched
+2. **Read [INDEX.md](./INDEX.md)** for the detailed chapter outline and reading paths by role
+3. **Begin [Chapter 1](./chapters/01-capacitor-dielectric-role.md)**: The Capacitor Dielectric & Why It Is Etched
 
 ---
 
