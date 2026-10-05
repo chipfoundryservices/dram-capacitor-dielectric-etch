@@ -166,10 +166,18 @@ Reference ALE cycle, flat surfaces (illustrative):
 Because each cycle removes what one saturated layer contains, the EPC depends much less on grain orientation than the continuous rate does:
 
 ```
-Grain-to-grain EPC spread σ_EPC/EPC ≈ 3%       (vs σ_r = 7.5% continuous, 150 eV)
+Grain-to-grain EPC spread, per cycle             ≈ 3%  (mostly random from
+                                                         cycle to cycle)
+Persistent part (orientation, Al content)        ≈ 1%  of the total removed
+Compare: continuous step at 150 eV               σ_r = 7.5% (persistent)
+
+Spread added by N cycles removing R nm:
+  σ_ALE = √((0.03 · EPC · √N)² + (0.01 R)²)
+
+  36 cycles, R = 3.6 nm:  √(0.018² + 0.036²) ≈ 0.04 nm
 ```
 
-Over R nm of ALE removal, the ALE adds a spread of 0.03 R to whatever spread was already there. It adds; it does not subtract (Section 4.6).
+The random part averages out over many cycles; the persistent part grows with the amount removed, but at a rate seven times smaller than the continuous step's. The ALE adds a little spread to whatever spread was already there. It adds; it does not subtract (Section 4.6).
 
 ---
 
@@ -300,7 +308,7 @@ Between continuous etch and ideal ALE is a family of **quasi-ALE** or **mixed-mo
 ───────────────────────────────────────────────────────────────────
 ZrO₂ rate (nm/min)       6.0          3–4             1.33
 ZrO₂:SiN                 0.75         ≈ 3             6.7
-Grain spread added       7.5% of x    ≈ 5% of x       3% of x
+Grain spread added       7.5% of x    ≈ 4% of x       ≈ 1% of x
 Self-limited             no           partly          yes
 ```
 
@@ -364,7 +372,7 @@ Module   ALE type          Job                            Chapters
 
 4. A thermal ALE trim at 275 °C has EPC 0.08 nm. How many cycles are needed for a 1.0 nm trim? Why might the process engineer still prefer 250 °C?
 
-5. A main step leaves a remaining-thickness distribution with σ = 0.35 nm. The ALE finish removes 3.6 nm with σ_EPC/EPC = 3%. What is the total spread at the end of the finish, before any material reaches SiN? Explain why it is larger, not smaller, than 0.35 nm.
+5. A main step leaves a remaining-thickness distribution with σ = 0.35 nm. The ALE finish removes 3.6 nm in 36 cycles with the spreads of Section 4.2.6. What is the total spread at the end of the finish, before any material reaches SiN? Explain why it is larger, not smaller, than 0.35 nm. What would it be if the 3% per-cycle spread were fully persistent?
 
 6. Explain why a BCl₃ dose with the plasma source on at 300 W (no bias) would not be a self-limiting step A. What would you observe in EPC versus dose time?
 
